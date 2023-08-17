@@ -1,0 +1,715 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.String StarkSDKSpace.StarkFileSystemManager::WriteFileSync(System.String,System.String,System.String)
+// 0x00000002 System.String StarkSDKSpace.StarkFileSystemManager::WriteFileSync(System.String,System.Byte[])
+// 0x00000003 System.Void StarkSDKSpace.StarkFileSystemManager::WriteFile(StarkSDKSpace.WriteFileParam)
+// 0x00000004 System.Void StarkSDKSpace.StarkFileSystemManager::WriteFile(StarkSDKSpace.WriteFileStringParam)
+// 0x00000005 System.Void StarkSDKSpace.StarkFileSystemManager::ReadFile(StarkSDKSpace.ReadFileParam)
+// 0x00000006 System.Byte[] StarkSDKSpace.StarkFileSystemManager::ReadFileSync(System.String)
+// 0x00000007 System.String StarkSDKSpace.StarkFileSystemManager::ReadFileSync(System.String,System.String)
+// 0x00000008 System.Boolean StarkSDKSpace.StarkFileSystemManager::AccessSync(System.String)
+// 0x00000009 System.Void StarkSDKSpace.StarkFileSystemManager::Access(StarkSDKSpace.AccessParam)
+// 0x0000000A System.String StarkSDKSpace.StarkFileSystemManager::CopyFileSync(System.String,System.String)
+// 0x0000000B System.Void StarkSDKSpace.StarkFileSystemManager::CopyFile(StarkSDKSpace.CopyFileParam)
+// 0x0000000C System.Void StarkSDKSpace.StarkFileSystemManager::RenameFile(StarkSDKSpace.RenameFileParam)
+// 0x0000000D System.String StarkSDKSpace.StarkFileSystemManager::RenameFileSync(System.String,System.String)
+// 0x0000000E System.String StarkSDKSpace.StarkFileSystemManager::UnlinkSync(System.String)
+// 0x0000000F System.Void StarkSDKSpace.StarkFileSystemManager::Unlink(StarkSDKSpace.UnlinkParam)
+// 0x00000010 System.Void StarkSDKSpace.StarkFileSystemManager::Mkdir(StarkSDKSpace.MkdirParam)
+// 0x00000011 System.String StarkSDKSpace.StarkFileSystemManager::MkdirSync(System.String,System.Boolean)
+// 0x00000012 System.Void StarkSDKSpace.StarkFileSystemManager::Rmdir(StarkSDKSpace.RmdirParam)
+// 0x00000013 System.String StarkSDKSpace.StarkFileSystemManager::RmdirSync(System.String,System.Boolean)
+// 0x00000014 StarkSDKSpace.StarkStatInfo StarkSDKSpace.StarkFileSystemManager::StatSync(System.String,System.Boolean)
+// 0x00000015 System.Void StarkSDKSpace.StarkFileSystemManager::Stat(StarkSDKSpace.StatParam)
+// 0x00000016 System.Void StarkSDKSpace.StarkFileSystemManager::GetSavedFileList(StarkSDKSpace.GetSavedFileListParam)
+// 0x00000017 System.String StarkSDKSpace.StarkFileSystemManager::GetLocalCachedPathForUrl(System.String)
+// 0x00000018 System.Boolean StarkSDKSpace.StarkFileSystemManager::IsUrlCached(System.String)
+// 0x00000019 System.Boolean StarkSDKSpace.StarkFileSystemManager::StarkCanUseLocalStorage()
+extern void StarkFileSystemManager_StarkCanUseLocalStorage_m5E6B953CAAA05FD3129F367DF82E35B32155B118 (void);
+// 0x0000001A System.Boolean StarkSDKSpace.StarkFileSystemManager::StarkIsDataMigrated()
+extern void StarkFileSystemManager_StarkIsDataMigrated_mAD1E80D0DAB901C1503A4773CDCFCAA7CDEE90F5 (void);
+// 0x0000001B System.Void StarkSDKSpace.StarkFileSystemManager::StarkMigratingData()
+extern void StarkFileSystemManager_StarkMigratingData_m3C6BC7F5D9E9E8524DB6B04E6E740BFA02CE8CD8 (void);
+// 0x0000001C System.Boolean StarkSDKSpace.StarkFileSystemManager::CanUseLocalStorage()
+extern void StarkFileSystemManager_CanUseLocalStorage_m174D499BB992234939B0EE092DD69DB7977ADBBB (void);
+// 0x0000001D System.Boolean StarkSDKSpace.StarkFileSystemManager::IsDataMigrated()
+extern void StarkFileSystemManager_IsDataMigrated_m2F507F31956ACC4C83EB8A3C7CBE3FAC498923E7 (void);
+// 0x0000001E System.Void StarkSDKSpace.StarkFileSystemManager::MigratingData()
+extern void StarkFileSystemManager_MigratingData_m33C8C075E34139F6A99985F9BDC9C35A3AC9CCB0 (void);
+// 0x0000001F System.Void StarkSDKSpace.StarkFileSystemManager::.ctor()
+extern void StarkFileSystemManager__ctor_m4EF16BD56E74FC412CCCBF5B82E5D41E1F455019 (void);
+// 0x00000020 System.Void StarkSDKSpace.StarkFileSystemManager::.cctor()
+extern void StarkFileSystemManager__cctor_m519E82F30807E5ABD38D2F1FBE75B2219955B910 (void);
+// 0x00000021 System.String StarkSDKSpace.StarkFileSystemManagerDefault::WriteFileSync(System.String,System.String,System.String)
+extern void StarkFileSystemManagerDefault_WriteFileSync_m70BDB6DF1D6E63375FDF412A5A3FB12DCC558F8E (void);
+// 0x00000022 System.String StarkSDKSpace.StarkFileSystemManagerDefault::WriteFileSync(System.String,System.Byte[])
+extern void StarkFileSystemManagerDefault_WriteFileSync_mF2CFB4CC4ACE4647CE940E033C759CFB39860901 (void);
+// 0x00000023 System.Void StarkSDKSpace.StarkFileSystemManagerDefault::WriteFile(StarkSDKSpace.WriteFileParam)
+extern void StarkFileSystemManagerDefault_WriteFile_mA28B6D21A369ADD33F0F777F90F2121EF07F8736 (void);
+// 0x00000024 System.Void StarkSDKSpace.StarkFileSystemManagerDefault::WriteFile(StarkSDKSpace.WriteFileStringParam)
+extern void StarkFileSystemManagerDefault_WriteFile_m2B66F4753727596C1FEC0FF36F58471EC900870F (void);
+// 0x00000025 System.Void StarkSDKSpace.StarkFileSystemManagerDefault::ReadFile(StarkSDKSpace.ReadFileParam)
+extern void StarkFileSystemManagerDefault_ReadFile_mC204299314E160880AF4DECC88765587537E53BF (void);
+// 0x00000026 System.Byte[] StarkSDKSpace.StarkFileSystemManagerDefault::ReadFileSync(System.String)
+extern void StarkFileSystemManagerDefault_ReadFileSync_m67453A74FFF3F4583D8D5118E0B66C0A7D01BDBB (void);
+// 0x00000027 System.String StarkSDKSpace.StarkFileSystemManagerDefault::ReadFileSync(System.String,System.String)
+extern void StarkFileSystemManagerDefault_ReadFileSync_m985F94885118D38C3506B24BCD7B2182E298362E (void);
+// 0x00000028 System.Boolean StarkSDKSpace.StarkFileSystemManagerDefault::AccessSync(System.String)
+extern void StarkFileSystemManagerDefault_AccessSync_m86C4848F6979D0B40AF666BB2EF17358959AC6F5 (void);
+// 0x00000029 System.Void StarkSDKSpace.StarkFileSystemManagerDefault::Access(StarkSDKSpace.AccessParam)
+extern void StarkFileSystemManagerDefault_Access_m392EC27749C1212898108C4847A6151C33D40FD8 (void);
+// 0x0000002A System.String StarkSDKSpace.StarkFileSystemManagerDefault::CopyFileSync(System.String,System.String)
+extern void StarkFileSystemManagerDefault_CopyFileSync_mFDB60E9C614027F67D69078979677B8B01309FF7 (void);
+// 0x0000002B System.Void StarkSDKSpace.StarkFileSystemManagerDefault::CopyFile(StarkSDKSpace.CopyFileParam)
+extern void StarkFileSystemManagerDefault_CopyFile_m165DE3CE445F1DE8A501FAC49A5C28003FBA602B (void);
+// 0x0000002C System.Void StarkSDKSpace.StarkFileSystemManagerDefault::RenameFile(StarkSDKSpace.RenameFileParam)
+extern void StarkFileSystemManagerDefault_RenameFile_m270829696A62B446BA6D1B00139BEC69FB7952D2 (void);
+// 0x0000002D System.String StarkSDKSpace.StarkFileSystemManagerDefault::RenameFileSync(System.String,System.String)
+extern void StarkFileSystemManagerDefault_RenameFileSync_mF4A526EA73E70C6DF21AE7AF4C210CF285BF711E (void);
+// 0x0000002E System.String StarkSDKSpace.StarkFileSystemManagerDefault::UnlinkSync(System.String)
+extern void StarkFileSystemManagerDefault_UnlinkSync_m0C236361CCF7974DC8DCEE2969DCA1879A253EDB (void);
+// 0x0000002F System.Void StarkSDKSpace.StarkFileSystemManagerDefault::Unlink(StarkSDKSpace.UnlinkParam)
+extern void StarkFileSystemManagerDefault_Unlink_mA47A7198696CDCAB04F675E2C849EE1495FBD46D (void);
+// 0x00000030 System.Void StarkSDKSpace.StarkFileSystemManagerDefault::Mkdir(StarkSDKSpace.MkdirParam)
+extern void StarkFileSystemManagerDefault_Mkdir_mCA8995137D3F15695F32ADBF2881B5F8A0812D2B (void);
+// 0x00000031 System.String StarkSDKSpace.StarkFileSystemManagerDefault::MkdirSync(System.String,System.Boolean)
+extern void StarkFileSystemManagerDefault_MkdirSync_m1DA83BD9DF89753E05F51B39A8A548F298723BDB (void);
+// 0x00000032 System.Void StarkSDKSpace.StarkFileSystemManagerDefault::Rmdir(StarkSDKSpace.RmdirParam)
+extern void StarkFileSystemManagerDefault_Rmdir_mD04B27DD686334D5477018D66EFB9880E03366F7 (void);
+// 0x00000033 System.String StarkSDKSpace.StarkFileSystemManagerDefault::RmdirSync(System.String,System.Boolean)
+extern void StarkFileSystemManagerDefault_RmdirSync_m1CE19DE61C764D615C06709C4E66EE97DBD1C978 (void);
+// 0x00000034 StarkSDKSpace.StarkStatInfo StarkSDKSpace.StarkFileSystemManagerDefault::StatSync(System.String,System.Boolean)
+extern void StarkFileSystemManagerDefault_StatSync_mCCDD7C1DAFBED286C952F907B0BA9B26CF13BE68 (void);
+// 0x00000035 System.Void StarkSDKSpace.StarkFileSystemManagerDefault::Stat(StarkSDKSpace.StatParam)
+extern void StarkFileSystemManagerDefault_Stat_m0DD4DABDDAA3D752AA4FB9B05329CC32E1A628B2 (void);
+// 0x00000036 System.Void StarkSDKSpace.StarkFileSystemManagerDefault::GetFilesRecursively(System.String,System.Collections.Generic.List`1<StarkSDKSpace.StarkFileInfo>)
+extern void StarkFileSystemManagerDefault_GetFilesRecursively_m81017E1C290E9932E66FCA68ABEC0B9872BCB7EE (void);
+// 0x00000037 System.Void StarkSDKSpace.StarkFileSystemManagerDefault::GetSavedFileList(StarkSDKSpace.GetSavedFileListParam)
+extern void StarkFileSystemManagerDefault_GetSavedFileList_m79D7A8E765CEA3015D56497CC17AB4B27FBA15FD (void);
+// 0x00000038 System.String StarkSDKSpace.StarkFileSystemManagerDefault::GetLocalCachedPathForUrl(System.String)
+extern void StarkFileSystemManagerDefault_GetLocalCachedPathForUrl_mE0E6E975869AEBC273EED7850627113FA6C5EE10 (void);
+// 0x00000039 System.Boolean StarkSDKSpace.StarkFileSystemManagerDefault::IsUrlCached(System.String)
+extern void StarkFileSystemManagerDefault_IsUrlCached_m5C39508A1E19F07D18B4D5735BE94DE6A7D580EF (void);
+// 0x0000003A System.Void StarkSDKSpace.StarkFileSystemManagerDefault::CallbackReadFileResponse(System.String,System.Action`1<StarkSDKSpace.StarkReadFileResponse>,System.Action`1<StarkSDKSpace.StarkReadFileResponse>,System.Byte[],System.String)
+extern void StarkFileSystemManagerDefault_CallbackReadFileResponse_mBE4A74999A69539354397B707B732A08589083D2 (void);
+// 0x0000003B System.Void StarkSDKSpace.StarkFileSystemManagerDefault::CallbackBaseResponse(System.String,System.Action`1<StarkSDKSpace.StarkBaseResponse>,System.Action`1<StarkSDKSpace.StarkBaseResponse>)
+extern void StarkFileSystemManagerDefault_CallbackBaseResponse_m8B065B2BB3E106E5A32F34DDE48E0AD03FE81363 (void);
+// 0x0000003C System.Int64 StarkSDKSpace.StarkFileSystemManagerDefault::GetUnixTime(System.Int64)
+extern void StarkFileSystemManagerDefault_GetUnixTime_m0DF797F6A811B7FE669744F7B106818ABC54F86C (void);
+// 0x0000003D System.Void StarkSDKSpace.StarkFileSystemManagerDefault::.ctor()
+extern void StarkFileSystemManagerDefault__ctor_mD7411AEB782937A5F0AAF2930E194E08FDE8BF98 (void);
+// 0x0000003E System.Void StarkSDKSpace.StarkFileSystemManagerDefault::.cctor()
+extern void StarkFileSystemManagerDefault__cctor_m07233F0D8491D7FE01C1C757289151E5B3748E20 (void);
+// 0x0000003F System.String StarkSDKSpace.StarkFileSystemManagerWebGL::StarkWriteStringFileSync(System.String,System.String,System.String)
+extern void StarkFileSystemManagerWebGL_StarkWriteStringFileSync_mC06EFC3F05C0927A9FA4E632014C8E8BE4F73333 (void);
+// 0x00000040 System.String StarkSDKSpace.StarkFileSystemManagerWebGL::StarkWriteBinFileSync(System.String,System.Byte[],System.Int32)
+extern void StarkFileSystemManagerWebGL_StarkWriteBinFileSync_mF8AAC0E399783C972E1C184208C17D57EF7A4A66 (void);
+// 0x00000041 System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::StarkWriteBinFile(System.String,System.Byte[],System.Int32,System.String,System.String)
+extern void StarkFileSystemManagerWebGL_StarkWriteBinFile_m0BE492BAB7417FB97CDA0CC89E245582AEB5B654 (void);
+// 0x00000042 System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::StarkWriteStringFile(System.String,System.String,System.String,System.String,System.String)
+extern void StarkFileSystemManagerWebGL_StarkWriteStringFile_mE6AC5DD9CB97642D0A594B99A653674124D17C87 (void);
+// 0x00000043 System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::StarkReadFile(System.String,System.String,System.String)
+extern void StarkFileSystemManagerWebGL_StarkReadFile_m09158CDD0CB39FAEF14D7F4E3638B823073B7182 (void);
+// 0x00000044 System.String StarkSDKSpace.StarkFileSystemManagerWebGL::StarkReadStringFileSync(System.String,System.String)
+extern void StarkFileSystemManagerWebGL_StarkReadStringFileSync_m84E8CBAB7549E53B46FB4FD14E7FABC8AACF0D36 (void);
+// 0x00000045 System.Int32 StarkSDKSpace.StarkFileSystemManagerWebGL::StarkReadBinFileSync(System.String)
+extern void StarkFileSystemManagerWebGL_StarkReadBinFileSync_m5E27BD4D8E97CF3DFA4ECCC268870A4FA26E1284 (void);
+// 0x00000046 System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::StarkShareFileBuffer(System.Byte[],System.String)
+extern void StarkFileSystemManagerWebGL_StarkShareFileBuffer_m94A4B5E996E2AE035083924BA0E2D18B07550BB9 (void);
+// 0x00000047 System.Boolean StarkSDKSpace.StarkFileSystemManagerWebGL::StarkAccessFileSync(System.String)
+extern void StarkFileSystemManagerWebGL_StarkAccessFileSync_mC37E99C1096825C1142CFC990C7467C4BADB859B (void);
+// 0x00000048 System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::StarkAccessFile(System.String,System.String,System.String)
+extern void StarkFileSystemManagerWebGL_StarkAccessFile_m574D62C37E1B832D6745AFD51768066BB6783732 (void);
+// 0x00000049 System.String StarkSDKSpace.StarkFileSystemManagerWebGL::StarkCopyFileSync(System.String,System.String)
+extern void StarkFileSystemManagerWebGL_StarkCopyFileSync_m5E3B140EF326AA5A2432EE320F0292E14B47CF4C (void);
+// 0x0000004A System.String StarkSDKSpace.StarkFileSystemManagerWebGL::StarkRenameFileSync(System.String,System.String)
+extern void StarkFileSystemManagerWebGL_StarkRenameFileSync_mAC70A0519989A41CF509222469E315349DF3C320 (void);
+// 0x0000004B System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::StarkCopyFile(System.String,System.String,System.String,System.String)
+extern void StarkFileSystemManagerWebGL_StarkCopyFile_mA1F5FBF6320B679A4CF1228DCB04F2C8FAD0E0F7 (void);
+// 0x0000004C System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::StarkRenameFile(System.String,System.String,System.String,System.String)
+extern void StarkFileSystemManagerWebGL_StarkRenameFile_mEDD11512DB4EE09983E5DD0BDD3760AA289B187C (void);
+// 0x0000004D System.String StarkSDKSpace.StarkFileSystemManagerWebGL::StarkUnlinkSync(System.String)
+extern void StarkFileSystemManagerWebGL_StarkUnlinkSync_mE5925E3F5782B28CBE523D230DF22DA1572D2129 (void);
+// 0x0000004E System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::StarkUnlink(System.String,System.String,System.String)
+extern void StarkFileSystemManagerWebGL_StarkUnlink_m15DD36CFC6B7A612F4BF5A27C3A45F6A91DC2CEB (void);
+// 0x0000004F System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::StarkMkdir(System.String,System.Boolean,System.String,System.String)
+extern void StarkFileSystemManagerWebGL_StarkMkdir_m4564BF7DD9C29CE26D8D0A074F43E2A6FBB681BD (void);
+// 0x00000050 System.String StarkSDKSpace.StarkFileSystemManagerWebGL::StarkMkdirSync(System.String,System.Boolean)
+extern void StarkFileSystemManagerWebGL_StarkMkdirSync_m306B73C3C98A3AAE2AFEB778E3F47289A5118C34 (void);
+// 0x00000051 System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::StarkRmdir(System.String,System.Boolean,System.String,System.String)
+extern void StarkFileSystemManagerWebGL_StarkRmdir_m264F260F5D88147CBB5B37D7DA561B6E539E5DC0 (void);
+// 0x00000052 System.String StarkSDKSpace.StarkFileSystemManagerWebGL::StarkRmdirSync(System.String,System.Boolean)
+extern void StarkFileSystemManagerWebGL_StarkRmdirSync_mE31B2DA57954209FE476A8F1A36E90AFCED9C5CB (void);
+// 0x00000053 System.String StarkSDKSpace.StarkFileSystemManagerWebGL::StarkStatSync(System.String)
+extern void StarkFileSystemManagerWebGL_StarkStatSync_mF47C539C814FD402BBEBE5E8A739238E3DDE2672 (void);
+// 0x00000054 System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::StarkStat(System.String,System.String)
+extern void StarkFileSystemManagerWebGL_StarkStat_mDBADA9EDB571F7A9325D1A0CA1864B99A5380723 (void);
+// 0x00000055 System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::StarkGetSavedFileList(System.String)
+extern void StarkFileSystemManagerWebGL_StarkGetSavedFileList_m6EF877F64FC366F2CCDBA49FFD0634E749CA8894 (void);
+// 0x00000056 System.String StarkSDKSpace.StarkFileSystemManagerWebGL::StarkGetCachedPathForUrl(System.String)
+extern void StarkFileSystemManagerWebGL_StarkGetCachedPathForUrl_m33153DD3716934C70F486ED05ECF79FDDEA0C0CE (void);
+// 0x00000057 System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::.ctor()
+extern void StarkFileSystemManagerWebGL__ctor_mACD0BA04C4181F60D8080EF47F01C48473FC2F43 (void);
+// 0x00000058 System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::CreateStarkFileSystemHandler()
+extern void StarkFileSystemManagerWebGL_CreateStarkFileSystemHandler_m236A23EA8BD04F468FD051103E7E00B31744C7D2 (void);
+// 0x00000059 System.String StarkSDKSpace.StarkFileSystemManagerWebGL::FixFilePath(System.String)
+extern void StarkFileSystemManagerWebGL_FixFilePath_m060569FDF750ED58464CFDEDFFF14D4E1C0EC7D8 (void);
+// 0x0000005A System.String StarkSDKSpace.StarkFileSystemManagerWebGL::WriteFileSync(System.String,System.String,System.String)
+extern void StarkFileSystemManagerWebGL_WriteFileSync_mBEE23A0FC4571F3361E864E94DF44EF3C3C76ED4 (void);
+// 0x0000005B System.String StarkSDKSpace.StarkFileSystemManagerWebGL::WriteFileSync(System.String,System.Byte[])
+extern void StarkFileSystemManagerWebGL_WriteFileSync_m40056C87C004CAD17DCB0FA5026E0D8C7F2F9CEB (void);
+// 0x0000005C System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::WriteFile(StarkSDKSpace.WriteFileParam)
+extern void StarkFileSystemManagerWebGL_WriteFile_m77BDBF9D92B0FFBDFE0CAE004CE3376C69B28E6F (void);
+// 0x0000005D System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::WriteFile(StarkSDKSpace.WriteFileStringParam)
+extern void StarkFileSystemManagerWebGL_WriteFile_m4605D5D12C0FFEDD79F55B9EF80D065889DA0656 (void);
+// 0x0000005E System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::ReadFile(StarkSDKSpace.ReadFileParam)
+extern void StarkFileSystemManagerWebGL_ReadFile_m8C54F99041B8221514CF3D4D73C6CA8C04D9DCF9 (void);
+// 0x0000005F System.Byte[] StarkSDKSpace.StarkFileSystemManagerWebGL::ReadFileSync(System.String)
+extern void StarkFileSystemManagerWebGL_ReadFileSync_m2981003CF70050EF8202D3B126057A08BE2DCE0B (void);
+// 0x00000060 System.String StarkSDKSpace.StarkFileSystemManagerWebGL::ReadFileSync(System.String,System.String)
+extern void StarkFileSystemManagerWebGL_ReadFileSync_m21470EC5E61E44DB12D7FCAD8E757DCC32F05E82 (void);
+// 0x00000061 System.Boolean StarkSDKSpace.StarkFileSystemManagerWebGL::AccessSync(System.String)
+extern void StarkFileSystemManagerWebGL_AccessSync_mDEE4D3127DBD3D1EE58BDADB08C35441E04C23B1 (void);
+// 0x00000062 System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::Access(StarkSDKSpace.AccessParam)
+extern void StarkFileSystemManagerWebGL_Access_m73910AC6ED6B2E3323C92D62732AEC1285A806CF (void);
+// 0x00000063 System.String StarkSDKSpace.StarkFileSystemManagerWebGL::CopyFileSync(System.String,System.String)
+extern void StarkFileSystemManagerWebGL_CopyFileSync_m69E1E2B33FDEB9F2D66DE368F852FED814A87E2D (void);
+// 0x00000064 System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::CopyFile(StarkSDKSpace.CopyFileParam)
+extern void StarkFileSystemManagerWebGL_CopyFile_mF559D04AA1A84F0E5F6B6789B1971310340E482D (void);
+// 0x00000065 System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::RenameFile(StarkSDKSpace.RenameFileParam)
+extern void StarkFileSystemManagerWebGL_RenameFile_m732C114676CC2548DC1C392E82F12F4B4808E487 (void);
+// 0x00000066 System.String StarkSDKSpace.StarkFileSystemManagerWebGL::RenameFileSync(System.String,System.String)
+extern void StarkFileSystemManagerWebGL_RenameFileSync_m2F8E157FD18DB2FBD2E562B8BC16AC633EBB5A2F (void);
+// 0x00000067 System.String StarkSDKSpace.StarkFileSystemManagerWebGL::UnlinkSync(System.String)
+extern void StarkFileSystemManagerWebGL_UnlinkSync_m77A49BE198FB1CC4DDDE43E319765E77277A6F8C (void);
+// 0x00000068 System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::Unlink(StarkSDKSpace.UnlinkParam)
+extern void StarkFileSystemManagerWebGL_Unlink_m2F8E69EB91CC5CD3BB97DC809043370776136C30 (void);
+// 0x00000069 System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::Mkdir(StarkSDKSpace.MkdirParam)
+extern void StarkFileSystemManagerWebGL_Mkdir_mD508F2663B7CF6FDC88BA175B97304C42E3F51C6 (void);
+// 0x0000006A System.String StarkSDKSpace.StarkFileSystemManagerWebGL::MkdirSync(System.String,System.Boolean)
+extern void StarkFileSystemManagerWebGL_MkdirSync_mC3006DD36EDF8E5F1568B4A9E7A9E98E7F01705A (void);
+// 0x0000006B System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::Rmdir(StarkSDKSpace.RmdirParam)
+extern void StarkFileSystemManagerWebGL_Rmdir_mEB3D908A044B88CE61DF4CAED2C820015FCA7DCB (void);
+// 0x0000006C System.String StarkSDKSpace.StarkFileSystemManagerWebGL::RmdirSync(System.String,System.Boolean)
+extern void StarkFileSystemManagerWebGL_RmdirSync_m93E2438BFD30547109738902A9E8F583B8A2BC4D (void);
+// 0x0000006D StarkSDKSpace.StarkStatInfo StarkSDKSpace.StarkFileSystemManagerWebGL::StatSync(System.String,System.Boolean)
+extern void StarkFileSystemManagerWebGL_StatSync_m774F39057B94BF138852D769AEF0135F37962E72 (void);
+// 0x0000006E System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::Stat(StarkSDKSpace.StatParam)
+extern void StarkFileSystemManagerWebGL_Stat_m54CAE65DF7495F3A289AAC9FA9F48B24679651ED (void);
+// 0x0000006F System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::GetSavedFileList(StarkSDKSpace.GetSavedFileListParam)
+extern void StarkFileSystemManagerWebGL_GetSavedFileList_m5AA63BED7AD8BB755632E48FF98D45C75E27A048 (void);
+// 0x00000070 System.String StarkSDKSpace.StarkFileSystemManagerWebGL::GetLocalCachedPathForUrl(System.String)
+extern void StarkFileSystemManagerWebGL_GetLocalCachedPathForUrl_mA14C4A33C05303B72245A18784123EB56DCA6BC5 (void);
+// 0x00000071 System.Boolean StarkSDKSpace.StarkFileSystemManagerWebGL::IsUrlCached(System.String)
+extern void StarkFileSystemManagerWebGL_IsUrlCached_m721D47B1C8153CD3C178437C32CC6981FE8B8752 (void);
+// 0x00000072 System.Void StarkSDKSpace.StarkFileSystemManagerWebGL::.cctor()
+extern void StarkFileSystemManagerWebGL__cctor_mD14BA0A865D521180ABFE4242AF8545883FAC58E (void);
+// 0x00000073 System.Void StarkSDKSpace.StarkFileSystemManagerWebGL/StarkFileSystemHandler::HandleNativeCallback(System.String)
+extern void StarkFileSystemHandler_HandleNativeCallback_m9D7D27209AD2E49BB422D088DA49F77F76837BAE (void);
+// 0x00000074 System.Void StarkSDKSpace.StarkFileSystemManagerWebGL/StarkFileSystemHandler::HandleReadFileCallback(System.String)
+extern void StarkFileSystemHandler_HandleReadFileCallback_m33D75FB8304659C8DEF023EC6E6ED8F53ED371FA (void);
+// 0x00000075 System.Void StarkSDKSpace.StarkFileSystemManagerWebGL/StarkFileSystemHandler::HandleStatCallback(System.String)
+extern void StarkFileSystemHandler_HandleStatCallback_m77E6B4F56D2322D8AEE6BD78C58C465083521B9C (void);
+// 0x00000076 System.Void StarkSDKSpace.StarkFileSystemManagerWebGL/StarkFileSystemHandler::HandleGetSavedFileListCallback(System.String)
+extern void StarkFileSystemHandler_HandleGetSavedFileListCallback_m443696A113B47863CA8DEB3A7338394AC80B74F0 (void);
+// 0x00000077 System.Void StarkSDKSpace.StarkFileSystemManagerWebGL/StarkFileSystemHandler::.ctor()
+extern void StarkFileSystemHandler__ctor_m429F931316156089C4A228DD9BE406AD3D2004E5 (void);
+// 0x00000078 System.Int32 StarkSDKSpace.StarkCallbackHandler::GenarateCallbackId()
+extern void StarkCallbackHandler_GenarateCallbackId_m3B5127154F282391F3B2FFC5C3631331FA11B38E (void);
+// 0x00000079 System.String StarkSDKSpace.StarkCallbackHandler::Add(System.Action`1<T>)
+// 0x0000007A System.String StarkSDKSpace.StarkCallbackHandler::MakeKey()
+extern void StarkCallbackHandler_MakeKey_m2C1596D3E3A890ECDCD607B9268275A833760036 (void);
+// 0x0000007B System.Void StarkSDKSpace.StarkCallbackHandler::InvokeResponseCallback(System.String)
+// 0x0000007C System.Void StarkSDKSpace.StarkCallbackHandler::Callback(System.String,T)
+// 0x0000007D System.Void StarkSDKSpace.StarkCallbackHandler::.ctor()
+extern void StarkCallbackHandler__ctor_m4A1B8425738BC95F9819643851D3D014D0439228 (void);
+// 0x0000007E System.Void StarkSDKSpace.StarkCallbackHandler::.cctor()
+extern void StarkCallbackHandler__cctor_m23FB5FB3328EB1183AED37918845D116EA800BA6 (void);
+// 0x0000007F System.Void StarkSDKSpace.StarkBaseResponse::.ctor()
+extern void StarkBaseResponse__ctor_mE3EF6BA910A5058A72FB450EC40E09258A2B73F8 (void);
+// 0x00000080 System.Void StarkSDKSpace.StarkBaseActionParam`1::.ctor()
+// 0x00000081 System.Void StarkSDKSpace.StarkReadFileResponse::.ctor()
+extern void StarkReadFileResponse__ctor_m4C84FDE06DA4C9A7E18AE9B1426D58E4B2473E8D (void);
+// 0x00000082 System.Void StarkSDKSpace.AccessParam::.ctor()
+extern void AccessParam__ctor_m50400B7ABA1B70D8FEE4D9E45A4734968C8CF22D (void);
+// 0x00000083 System.Void StarkSDKSpace.UnlinkParam::.ctor()
+extern void UnlinkParam__ctor_mC4A34F3FBFBE8FD80C76964D337613E01DB2C57C (void);
+// 0x00000084 System.Void StarkSDKSpace.MkdirParam::.ctor()
+extern void MkdirParam__ctor_mC48137BB7431C38FD2470A18653ECF0CA1078D7F (void);
+// 0x00000085 System.Void StarkSDKSpace.RmdirParam::.ctor()
+extern void RmdirParam__ctor_m518928AD37EEA91603407EF7FD63FAB9C9EB2CE9 (void);
+// 0x00000086 System.Void StarkSDKSpace.CopyFileParam::.ctor()
+extern void CopyFileParam__ctor_m2B7736026B4BC47B17118B3747AE277B2A5EB62F (void);
+// 0x00000087 System.Void StarkSDKSpace.RenameFileParam::.ctor()
+extern void RenameFileParam__ctor_mCA6035035279DFF6752BA2B0564E645817B8C4AA (void);
+// 0x00000088 System.Void StarkSDKSpace.WriteFileParam::.ctor()
+extern void WriteFileParam__ctor_mDDE4167F7A472E12D98CA85C7B024EE9887559BA (void);
+// 0x00000089 System.Void StarkSDKSpace.WriteFileStringParam::.ctor()
+extern void WriteFileStringParam__ctor_mFB6F9A110C93B88FCE1025A7DF4B5EF45E9943C2 (void);
+// 0x0000008A System.Void StarkSDKSpace.ReadFileParam::.ctor()
+extern void ReadFileParam__ctor_m672C94D95910AB65D1CFC969FE77167A700F8DBE (void);
+// 0x0000008B System.Void StarkSDKSpace.StatParam::.ctor()
+extern void StatParam__ctor_mA71A7B264E69ACE431CBE64B4A55638CE26A8D4A (void);
+// 0x0000008C System.Void StarkSDKSpace.GetSavedFileListParam::.ctor()
+extern void GetSavedFileListParam__ctor_mC84105031310618F095AF410A58E7B8A14EDE67A (void);
+// 0x0000008D System.Void StarkSDKSpace.StarkReadFileCallback::.ctor()
+extern void StarkReadFileCallback__ctor_m87C10C5348C0DCEF3E44CBD7B201945095703C7A (void);
+// 0x0000008E System.Void StarkSDKSpace.StarkGetSavedFileListResponse::.ctor()
+extern void StarkGetSavedFileListResponse__ctor_mAD4B866D6E91AD09AC0ABF472B6948AAE0B8DD6E (void);
+// 0x0000008F System.Void StarkSDKSpace.StarkStatResponse::.ctor()
+extern void StarkStatResponse__ctor_m12732EF05E3F284041AF19931A771B5792F6D1F8 (void);
+// 0x00000090 System.Boolean StarkSDKSpace.StarkBaseFileInfo::IsFile()
+extern void StarkBaseFileInfo_IsFile_m75FE86FB75E20B15637961BC4D33865CC7E5FC13 (void);
+// 0x00000091 System.Boolean StarkSDKSpace.StarkBaseFileInfo::IsDirectory()
+extern void StarkBaseFileInfo_IsDirectory_m6FC351BDFD638B369D6A4D5CA77403CB7CDCD44C (void);
+// 0x00000092 System.Void StarkSDKSpace.StarkBaseFileInfo::.ctor()
+extern void StarkBaseFileInfo__ctor_mA0963955BDE09099E5C047B5B3B87C9503C13156 (void);
+// 0x00000093 System.Void StarkSDKSpace.StarkFileInfo::.ctor()
+extern void StarkFileInfo__ctor_mB5E47E56717D3D31C5D40539664D13522A616D2F (void);
+// 0x00000094 System.Void StarkSDKSpace.StarkStatInfo::.ctor()
+extern void StarkStatInfo__ctor_m7AD21A25B4F6EB83648E34DCB903F8CAF06F9A45 (void);
+// 0x00000095 System.Void StarkSDKSpace.StarkStorage::SetIntSync(System.String,System.Int32)
+extern void StarkStorage_SetIntSync_m08528519ECCEC0FD18E0B377FD31BA6380C08018 (void);
+// 0x00000096 System.Int32 StarkSDKSpace.StarkStorage::GetIntSync(System.String,System.Int32)
+extern void StarkStorage_GetIntSync_m62EC0F3F3C559F3956020DF28164C6C9F1FC9B29 (void);
+// 0x00000097 System.Void StarkSDKSpace.StarkStorage::SetFloatSync(System.String,System.Single)
+extern void StarkStorage_SetFloatSync_m9FF604A581199D6D30C4C0BF786C104906B03D66 (void);
+// 0x00000098 System.Single StarkSDKSpace.StarkStorage::GetFloatSync(System.String,System.Single)
+extern void StarkStorage_GetFloatSync_m8A3C4F9A0FCAEC33A873D87335138EB5BFECA2AB (void);
+// 0x00000099 System.Void StarkSDKSpace.StarkStorage::SetStringSync(System.String,System.String)
+extern void StarkStorage_SetStringSync_m2C93B37FF1474CE5546CA464EEC30379CB7E5750 (void);
+// 0x0000009A System.String StarkSDKSpace.StarkStorage::GetStringSync(System.String,System.String)
+extern void StarkStorage_GetStringSync_mF45E893A3A0881EA837D244ECC3A1DB4DED3072E (void);
+// 0x0000009B System.Boolean StarkSDKSpace.StarkStorage::HasKeySync(System.String)
+extern void StarkStorage_HasKeySync_m625990FAAA21E2EDAA717856AEFC8D186ECDB737 (void);
+// 0x0000009C System.Void StarkSDKSpace.StarkStorage::DeleteKeySync(System.String)
+extern void StarkStorage_DeleteKeySync_mE43E82974EB636B285AF9C9872FAD163F23E171A (void);
+// 0x0000009D System.Void StarkSDKSpace.StarkStorage::DeleteAllSync()
+extern void StarkStorage_DeleteAllSync_mB1A6975CF3D9B8993D3BF60D28E2F0E08825DA7D (void);
+// 0x0000009E System.Void StarkSDKSpace.StarkStorage::StarkStorageSetIntSync(System.String,System.Int32)
+extern void StarkStorage_StarkStorageSetIntSync_m7C50763CC18019E9FDB83BED13CDC66A0997F10A (void);
+// 0x0000009F System.Int32 StarkSDKSpace.StarkStorage::StarkStorageGetIntSync(System.String,System.Int32)
+extern void StarkStorage_StarkStorageGetIntSync_m4474B18C8BBF23FDB316643D4A06D604499AA3D8 (void);
+// 0x000000A0 System.Void StarkSDKSpace.StarkStorage::StarkStorageSetStringSync(System.String,System.String)
+extern void StarkStorage_StarkStorageSetStringSync_mFF107C659BEE0D20DBE3A2F101FF2D09BED84EE1 (void);
+// 0x000000A1 System.String StarkSDKSpace.StarkStorage::StarkStorageGetStringSync(System.String,System.String)
+extern void StarkStorage_StarkStorageGetStringSync_m32A76E416CDCA44E8915A6841863292D00745485 (void);
+// 0x000000A2 System.Void StarkSDKSpace.StarkStorage::StarkStorageSetFloatSync(System.String,System.Single)
+extern void StarkStorage_StarkStorageSetFloatSync_mF3812D78BE636B4E9C457D0B8849641C4C660699 (void);
+// 0x000000A3 System.Single StarkSDKSpace.StarkStorage::StarkStorageGetFloatSync(System.String,System.Single)
+extern void StarkStorage_StarkStorageGetFloatSync_m08804752F7D4E23E065EF1E16BB384A254E1BA05 (void);
+// 0x000000A4 System.Void StarkSDKSpace.StarkStorage::StarkStorageDeleteAllSync()
+extern void StarkStorage_StarkStorageDeleteAllSync_m1C2A50559F114479AFF9366F26DDC27FCDCE7FA0 (void);
+// 0x000000A5 System.Void StarkSDKSpace.StarkStorage::StarkStorageDeleteKeySync(System.String)
+extern void StarkStorage_StarkStorageDeleteKeySync_mF8DDA18E3B457DA5209ABD9567F09BF955EB3620 (void);
+// 0x000000A6 System.Boolean StarkSDKSpace.StarkStorage::StarkStorageHasKeySync(System.String)
+extern void StarkStorage_StarkStorageHasKeySync_m8035ECA58448AA45E9811229619C0C94AE181BFD (void);
+// 0x000000A7 System.Void StarkSDKSpace.StarkWebGLInterface::unityCallJs(System.String)
+extern void StarkWebGLInterface_unityCallJs_mF2F1089C396EA11B7FCFF3EA481879C72D52E61B (void);
+// 0x000000A8 System.String StarkSDKSpace.StarkWebGLInterface::unityCallJsSync(System.String)
+extern void StarkWebGLInterface_unityCallJsSync_mCD0BF13E10E224F26CF1CBAFF80DCC91F80866CF (void);
+// 0x000000A9 System.Boolean StarkSDKSpace.StarkWebGLInterface::h5HasAPI(System.String)
+extern void StarkWebGLInterface_h5HasAPI_mE62E16772E17C0009FCF907746F8C9769524797D (void);
+// 0x000000AA System.String StarkSDKSpace.StarkWebGLInterface::unityMixCallJs(System.String)
+extern void StarkWebGLInterface_unityMixCallJs_m0CA6F2F5A7EE5F8F49F3643DFE7B25F7481B3925 (void);
+// 0x000000AB System.Void StarkSDKSpace.StarkWebGLInterface::.ctor()
+extern void StarkWebGLInterface__ctor_m3D87328D650EF41AE8EA3AA276536CBD6E88704D (void);
+static Il2CppMethodPointer s_methodPointers[171] = 
+{
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	StarkFileSystemManager_StarkCanUseLocalStorage_m5E6B953CAAA05FD3129F367DF82E35B32155B118,
+	StarkFileSystemManager_StarkIsDataMigrated_mAD1E80D0DAB901C1503A4773CDCFCAA7CDEE90F5,
+	StarkFileSystemManager_StarkMigratingData_m3C6BC7F5D9E9E8524DB6B04E6E740BFA02CE8CD8,
+	StarkFileSystemManager_CanUseLocalStorage_m174D499BB992234939B0EE092DD69DB7977ADBBB,
+	StarkFileSystemManager_IsDataMigrated_m2F507F31956ACC4C83EB8A3C7CBE3FAC498923E7,
+	StarkFileSystemManager_MigratingData_m33C8C075E34139F6A99985F9BDC9C35A3AC9CCB0,
+	StarkFileSystemManager__ctor_m4EF16BD56E74FC412CCCBF5B82E5D41E1F455019,
+	StarkFileSystemManager__cctor_m519E82F30807E5ABD38D2F1FBE75B2219955B910,
+	StarkFileSystemManagerDefault_WriteFileSync_m70BDB6DF1D6E63375FDF412A5A3FB12DCC558F8E,
+	StarkFileSystemManagerDefault_WriteFileSync_mF2CFB4CC4ACE4647CE940E033C759CFB39860901,
+	StarkFileSystemManagerDefault_WriteFile_mA28B6D21A369ADD33F0F777F90F2121EF07F8736,
+	StarkFileSystemManagerDefault_WriteFile_m2B66F4753727596C1FEC0FF36F58471EC900870F,
+	StarkFileSystemManagerDefault_ReadFile_mC204299314E160880AF4DECC88765587537E53BF,
+	StarkFileSystemManagerDefault_ReadFileSync_m67453A74FFF3F4583D8D5118E0B66C0A7D01BDBB,
+	StarkFileSystemManagerDefault_ReadFileSync_m985F94885118D38C3506B24BCD7B2182E298362E,
+	StarkFileSystemManagerDefault_AccessSync_m86C4848F6979D0B40AF666BB2EF17358959AC6F5,
+	StarkFileSystemManagerDefault_Access_m392EC27749C1212898108C4847A6151C33D40FD8,
+	StarkFileSystemManagerDefault_CopyFileSync_mFDB60E9C614027F67D69078979677B8B01309FF7,
+	StarkFileSystemManagerDefault_CopyFile_m165DE3CE445F1DE8A501FAC49A5C28003FBA602B,
+	StarkFileSystemManagerDefault_RenameFile_m270829696A62B446BA6D1B00139BEC69FB7952D2,
+	StarkFileSystemManagerDefault_RenameFileSync_mF4A526EA73E70C6DF21AE7AF4C210CF285BF711E,
+	StarkFileSystemManagerDefault_UnlinkSync_m0C236361CCF7974DC8DCEE2969DCA1879A253EDB,
+	StarkFileSystemManagerDefault_Unlink_mA47A7198696CDCAB04F675E2C849EE1495FBD46D,
+	StarkFileSystemManagerDefault_Mkdir_mCA8995137D3F15695F32ADBF2881B5F8A0812D2B,
+	StarkFileSystemManagerDefault_MkdirSync_m1DA83BD9DF89753E05F51B39A8A548F298723BDB,
+	StarkFileSystemManagerDefault_Rmdir_mD04B27DD686334D5477018D66EFB9880E03366F7,
+	StarkFileSystemManagerDefault_RmdirSync_m1CE19DE61C764D615C06709C4E66EE97DBD1C978,
+	StarkFileSystemManagerDefault_StatSync_mCCDD7C1DAFBED286C952F907B0BA9B26CF13BE68,
+	StarkFileSystemManagerDefault_Stat_m0DD4DABDDAA3D752AA4FB9B05329CC32E1A628B2,
+	StarkFileSystemManagerDefault_GetFilesRecursively_m81017E1C290E9932E66FCA68ABEC0B9872BCB7EE,
+	StarkFileSystemManagerDefault_GetSavedFileList_m79D7A8E765CEA3015D56497CC17AB4B27FBA15FD,
+	StarkFileSystemManagerDefault_GetLocalCachedPathForUrl_mE0E6E975869AEBC273EED7850627113FA6C5EE10,
+	StarkFileSystemManagerDefault_IsUrlCached_m5C39508A1E19F07D18B4D5735BE94DE6A7D580EF,
+	StarkFileSystemManagerDefault_CallbackReadFileResponse_mBE4A74999A69539354397B707B732A08589083D2,
+	StarkFileSystemManagerDefault_CallbackBaseResponse_m8B065B2BB3E106E5A32F34DDE48E0AD03FE81363,
+	StarkFileSystemManagerDefault_GetUnixTime_m0DF797F6A811B7FE669744F7B106818ABC54F86C,
+	StarkFileSystemManagerDefault__ctor_mD7411AEB782937A5F0AAF2930E194E08FDE8BF98,
+	StarkFileSystemManagerDefault__cctor_m07233F0D8491D7FE01C1C757289151E5B3748E20,
+	StarkFileSystemManagerWebGL_StarkWriteStringFileSync_mC06EFC3F05C0927A9FA4E632014C8E8BE4F73333,
+	StarkFileSystemManagerWebGL_StarkWriteBinFileSync_mF8AAC0E399783C972E1C184208C17D57EF7A4A66,
+	StarkFileSystemManagerWebGL_StarkWriteBinFile_m0BE492BAB7417FB97CDA0CC89E245582AEB5B654,
+	StarkFileSystemManagerWebGL_StarkWriteStringFile_mE6AC5DD9CB97642D0A594B99A653674124D17C87,
+	StarkFileSystemManagerWebGL_StarkReadFile_m09158CDD0CB39FAEF14D7F4E3638B823073B7182,
+	StarkFileSystemManagerWebGL_StarkReadStringFileSync_m84E8CBAB7549E53B46FB4FD14E7FABC8AACF0D36,
+	StarkFileSystemManagerWebGL_StarkReadBinFileSync_m5E27BD4D8E97CF3DFA4ECCC268870A4FA26E1284,
+	StarkFileSystemManagerWebGL_StarkShareFileBuffer_m94A4B5E996E2AE035083924BA0E2D18B07550BB9,
+	StarkFileSystemManagerWebGL_StarkAccessFileSync_mC37E99C1096825C1142CFC990C7467C4BADB859B,
+	StarkFileSystemManagerWebGL_StarkAccessFile_m574D62C37E1B832D6745AFD51768066BB6783732,
+	StarkFileSystemManagerWebGL_StarkCopyFileSync_m5E3B140EF326AA5A2432EE320F0292E14B47CF4C,
+	StarkFileSystemManagerWebGL_StarkRenameFileSync_mAC70A0519989A41CF509222469E315349DF3C320,
+	StarkFileSystemManagerWebGL_StarkCopyFile_mA1F5FBF6320B679A4CF1228DCB04F2C8FAD0E0F7,
+	StarkFileSystemManagerWebGL_StarkRenameFile_mEDD11512DB4EE09983E5DD0BDD3760AA289B187C,
+	StarkFileSystemManagerWebGL_StarkUnlinkSync_mE5925E3F5782B28CBE523D230DF22DA1572D2129,
+	StarkFileSystemManagerWebGL_StarkUnlink_m15DD36CFC6B7A612F4BF5A27C3A45F6A91DC2CEB,
+	StarkFileSystemManagerWebGL_StarkMkdir_m4564BF7DD9C29CE26D8D0A074F43E2A6FBB681BD,
+	StarkFileSystemManagerWebGL_StarkMkdirSync_m306B73C3C98A3AAE2AFEB778E3F47289A5118C34,
+	StarkFileSystemManagerWebGL_StarkRmdir_m264F260F5D88147CBB5B37D7DA561B6E539E5DC0,
+	StarkFileSystemManagerWebGL_StarkRmdirSync_mE31B2DA57954209FE476A8F1A36E90AFCED9C5CB,
+	StarkFileSystemManagerWebGL_StarkStatSync_mF47C539C814FD402BBEBE5E8A739238E3DDE2672,
+	StarkFileSystemManagerWebGL_StarkStat_mDBADA9EDB571F7A9325D1A0CA1864B99A5380723,
+	StarkFileSystemManagerWebGL_StarkGetSavedFileList_m6EF877F64FC366F2CCDBA49FFD0634E749CA8894,
+	StarkFileSystemManagerWebGL_StarkGetCachedPathForUrl_m33153DD3716934C70F486ED05ECF79FDDEA0C0CE,
+	StarkFileSystemManagerWebGL__ctor_mACD0BA04C4181F60D8080EF47F01C48473FC2F43,
+	StarkFileSystemManagerWebGL_CreateStarkFileSystemHandler_m236A23EA8BD04F468FD051103E7E00B31744C7D2,
+	StarkFileSystemManagerWebGL_FixFilePath_m060569FDF750ED58464CFDEDFFF14D4E1C0EC7D8,
+	StarkFileSystemManagerWebGL_WriteFileSync_mBEE23A0FC4571F3361E864E94DF44EF3C3C76ED4,
+	StarkFileSystemManagerWebGL_WriteFileSync_m40056C87C004CAD17DCB0FA5026E0D8C7F2F9CEB,
+	StarkFileSystemManagerWebGL_WriteFile_m77BDBF9D92B0FFBDFE0CAE004CE3376C69B28E6F,
+	StarkFileSystemManagerWebGL_WriteFile_m4605D5D12C0FFEDD79F55B9EF80D065889DA0656,
+	StarkFileSystemManagerWebGL_ReadFile_m8C54F99041B8221514CF3D4D73C6CA8C04D9DCF9,
+	StarkFileSystemManagerWebGL_ReadFileSync_m2981003CF70050EF8202D3B126057A08BE2DCE0B,
+	StarkFileSystemManagerWebGL_ReadFileSync_m21470EC5E61E44DB12D7FCAD8E757DCC32F05E82,
+	StarkFileSystemManagerWebGL_AccessSync_mDEE4D3127DBD3D1EE58BDADB08C35441E04C23B1,
+	StarkFileSystemManagerWebGL_Access_m73910AC6ED6B2E3323C92D62732AEC1285A806CF,
+	StarkFileSystemManagerWebGL_CopyFileSync_m69E1E2B33FDEB9F2D66DE368F852FED814A87E2D,
+	StarkFileSystemManagerWebGL_CopyFile_mF559D04AA1A84F0E5F6B6789B1971310340E482D,
+	StarkFileSystemManagerWebGL_RenameFile_m732C114676CC2548DC1C392E82F12F4B4808E487,
+	StarkFileSystemManagerWebGL_RenameFileSync_m2F8E157FD18DB2FBD2E562B8BC16AC633EBB5A2F,
+	StarkFileSystemManagerWebGL_UnlinkSync_m77A49BE198FB1CC4DDDE43E319765E77277A6F8C,
+	StarkFileSystemManagerWebGL_Unlink_m2F8E69EB91CC5CD3BB97DC809043370776136C30,
+	StarkFileSystemManagerWebGL_Mkdir_mD508F2663B7CF6FDC88BA175B97304C42E3F51C6,
+	StarkFileSystemManagerWebGL_MkdirSync_mC3006DD36EDF8E5F1568B4A9E7A9E98E7F01705A,
+	StarkFileSystemManagerWebGL_Rmdir_mEB3D908A044B88CE61DF4CAED2C820015FCA7DCB,
+	StarkFileSystemManagerWebGL_RmdirSync_m93E2438BFD30547109738902A9E8F583B8A2BC4D,
+	StarkFileSystemManagerWebGL_StatSync_m774F39057B94BF138852D769AEF0135F37962E72,
+	StarkFileSystemManagerWebGL_Stat_m54CAE65DF7495F3A289AAC9FA9F48B24679651ED,
+	StarkFileSystemManagerWebGL_GetSavedFileList_m5AA63BED7AD8BB755632E48FF98D45C75E27A048,
+	StarkFileSystemManagerWebGL_GetLocalCachedPathForUrl_mA14C4A33C05303B72245A18784123EB56DCA6BC5,
+	StarkFileSystemManagerWebGL_IsUrlCached_m721D47B1C8153CD3C178437C32CC6981FE8B8752,
+	StarkFileSystemManagerWebGL__cctor_mD14BA0A865D521180ABFE4242AF8545883FAC58E,
+	StarkFileSystemHandler_HandleNativeCallback_m9D7D27209AD2E49BB422D088DA49F77F76837BAE,
+	StarkFileSystemHandler_HandleReadFileCallback_m33D75FB8304659C8DEF023EC6E6ED8F53ED371FA,
+	StarkFileSystemHandler_HandleStatCallback_m77E6B4F56D2322D8AEE6BD78C58C465083521B9C,
+	StarkFileSystemHandler_HandleGetSavedFileListCallback_m443696A113B47863CA8DEB3A7338394AC80B74F0,
+	StarkFileSystemHandler__ctor_m429F931316156089C4A228DD9BE406AD3D2004E5,
+	StarkCallbackHandler_GenarateCallbackId_m3B5127154F282391F3B2FFC5C3631331FA11B38E,
+	NULL,
+	StarkCallbackHandler_MakeKey_m2C1596D3E3A890ECDCD607B9268275A833760036,
+	NULL,
+	NULL,
+	StarkCallbackHandler__ctor_m4A1B8425738BC95F9819643851D3D014D0439228,
+	StarkCallbackHandler__cctor_m23FB5FB3328EB1183AED37918845D116EA800BA6,
+	StarkBaseResponse__ctor_mE3EF6BA910A5058A72FB450EC40E09258A2B73F8,
+	NULL,
+	StarkReadFileResponse__ctor_m4C84FDE06DA4C9A7E18AE9B1426D58E4B2473E8D,
+	AccessParam__ctor_m50400B7ABA1B70D8FEE4D9E45A4734968C8CF22D,
+	UnlinkParam__ctor_mC4A34F3FBFBE8FD80C76964D337613E01DB2C57C,
+	MkdirParam__ctor_mC48137BB7431C38FD2470A18653ECF0CA1078D7F,
+	RmdirParam__ctor_m518928AD37EEA91603407EF7FD63FAB9C9EB2CE9,
+	CopyFileParam__ctor_m2B7736026B4BC47B17118B3747AE277B2A5EB62F,
+	RenameFileParam__ctor_mCA6035035279DFF6752BA2B0564E645817B8C4AA,
+	WriteFileParam__ctor_mDDE4167F7A472E12D98CA85C7B024EE9887559BA,
+	WriteFileStringParam__ctor_mFB6F9A110C93B88FCE1025A7DF4B5EF45E9943C2,
+	ReadFileParam__ctor_m672C94D95910AB65D1CFC969FE77167A700F8DBE,
+	StatParam__ctor_mA71A7B264E69ACE431CBE64B4A55638CE26A8D4A,
+	GetSavedFileListParam__ctor_mC84105031310618F095AF410A58E7B8A14EDE67A,
+	StarkReadFileCallback__ctor_m87C10C5348C0DCEF3E44CBD7B201945095703C7A,
+	StarkGetSavedFileListResponse__ctor_mAD4B866D6E91AD09AC0ABF472B6948AAE0B8DD6E,
+	StarkStatResponse__ctor_m12732EF05E3F284041AF19931A771B5792F6D1F8,
+	StarkBaseFileInfo_IsFile_m75FE86FB75E20B15637961BC4D33865CC7E5FC13,
+	StarkBaseFileInfo_IsDirectory_m6FC351BDFD638B369D6A4D5CA77403CB7CDCD44C,
+	StarkBaseFileInfo__ctor_mA0963955BDE09099E5C047B5B3B87C9503C13156,
+	StarkFileInfo__ctor_mB5E47E56717D3D31C5D40539664D13522A616D2F,
+	StarkStatInfo__ctor_m7AD21A25B4F6EB83648E34DCB903F8CAF06F9A45,
+	StarkStorage_SetIntSync_m08528519ECCEC0FD18E0B377FD31BA6380C08018,
+	StarkStorage_GetIntSync_m62EC0F3F3C559F3956020DF28164C6C9F1FC9B29,
+	StarkStorage_SetFloatSync_m9FF604A581199D6D30C4C0BF786C104906B03D66,
+	StarkStorage_GetFloatSync_m8A3C4F9A0FCAEC33A873D87335138EB5BFECA2AB,
+	StarkStorage_SetStringSync_m2C93B37FF1474CE5546CA464EEC30379CB7E5750,
+	StarkStorage_GetStringSync_mF45E893A3A0881EA837D244ECC3A1DB4DED3072E,
+	StarkStorage_HasKeySync_m625990FAAA21E2EDAA717856AEFC8D186ECDB737,
+	StarkStorage_DeleteKeySync_mE43E82974EB636B285AF9C9872FAD163F23E171A,
+	StarkStorage_DeleteAllSync_mB1A6975CF3D9B8993D3BF60D28E2F0E08825DA7D,
+	StarkStorage_StarkStorageSetIntSync_m7C50763CC18019E9FDB83BED13CDC66A0997F10A,
+	StarkStorage_StarkStorageGetIntSync_m4474B18C8BBF23FDB316643D4A06D604499AA3D8,
+	StarkStorage_StarkStorageSetStringSync_mFF107C659BEE0D20DBE3A2F101FF2D09BED84EE1,
+	StarkStorage_StarkStorageGetStringSync_m32A76E416CDCA44E8915A6841863292D00745485,
+	StarkStorage_StarkStorageSetFloatSync_mF3812D78BE636B4E9C457D0B8849641C4C660699,
+	StarkStorage_StarkStorageGetFloatSync_m08804752F7D4E23E065EF1E16BB384A254E1BA05,
+	StarkStorage_StarkStorageDeleteAllSync_m1C2A50559F114479AFF9366F26DDC27FCDCE7FA0,
+	StarkStorage_StarkStorageDeleteKeySync_mF8DDA18E3B457DA5209ABD9567F09BF955EB3620,
+	StarkStorage_StarkStorageHasKeySync_m8035ECA58448AA45E9811229619C0C94AE181BFD,
+	StarkWebGLInterface_unityCallJs_mF2F1089C396EA11B7FCFF3EA481879C72D52E61B,
+	StarkWebGLInterface_unityCallJsSync_mCD0BF13E10E224F26CF1CBAFF80DCC91F80866CF,
+	StarkWebGLInterface_h5HasAPI_mE62E16772E17C0009FCF907746F8C9769524797D,
+	StarkWebGLInterface_unityMixCallJs_m0CA6F2F5A7EE5F8F49F3643DFE7B25F7481B3925,
+	StarkWebGLInterface__ctor_m3D87328D650EF41AE8EA3AA276536CBD6E88704D,
+};
+static const int32_t s_InvokerIndices[171] = 
+{
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	11165,
+	11165,
+	11230,
+	11165,
+	11165,
+	11230,
+	6231,
+	11230,
+	1230,
+	2191,
+	4987,
+	4987,
+	4987,
+	4471,
+	2191,
+	3617,
+	4987,
+	2191,
+	4987,
+	4987,
+	2191,
+	4471,
+	4987,
+	4987,
+	2186,
+	4987,
+	2186,
+	2186,
+	4987,
+	2835,
+	4987,
+	4471,
+	3617,
+	7102,
+	8226,
+	10072,
+	6231,
+	11230,
+	7909,
+	7908,
+	7095,
+	7102,
+	8226,
+	8790,
+	10044,
+	9134,
+	9926,
+	8226,
+	8790,
+	8790,
+	7526,
+	7526,
+	10140,
+	8226,
+	7500,
+	8782,
+	7500,
+	8782,
+	10140,
+	9134,
+	10403,
+	10140,
+	6231,
+	6231,
+	4471,
+	1230,
+	2191,
+	4987,
+	4987,
+	4987,
+	4471,
+	2191,
+	3617,
+	4987,
+	2191,
+	4987,
+	4987,
+	2191,
+	4471,
+	4987,
+	4987,
+	2186,
+	4987,
+	2186,
+	2186,
+	4987,
+	4987,
+	4471,
+	3617,
+	11230,
+	4987,
+	4987,
+	4987,
+	4987,
+	6231,
+	11184,
+	0,
+	11191,
+	0,
+	0,
+	6231,
+	11230,
+	6231,
+	0,
+	6231,
+	6231,
+	6231,
+	6231,
+	6231,
+	6231,
+	6231,
+	6231,
+	6231,
+	6231,
+	6231,
+	6231,
+	6231,
+	6231,
+	6231,
+	6027,
+	6027,
+	6231,
+	6231,
+	6231,
+	9129,
+	8690,
+	9139,
+	8864,
+	9134,
+	8790,
+	9926,
+	10403,
+	11230,
+	9129,
+	8690,
+	9134,
+	8790,
+	9139,
+	8864,
+	11230,
+	10403,
+	9926,
+	10403,
+	10140,
+	9926,
+	10140,
+	6231,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[2] = 
+{
+	{ 0x0600007B, { 0, 3 } },
+	{ 0x0600007C, { 3, 2 } },
+};
+extern const uint32_t g_rgctx_JsonUtility_FromJson_TisT_tC19944D5D881EBE9BD84B91BD8CF0659D882A0C3_mA5D5CA5DD72A1DA4089F14D0E943C7DDC58BDA87;
+extern const uint32_t g_rgctx_T_tC19944D5D881EBE9BD84B91BD8CF0659D882A0C3;
+extern const uint32_t g_rgctx_StarkCallbackHandler_Callback_TisT_tC19944D5D881EBE9BD84B91BD8CF0659D882A0C3_m53B090370D4BB2DFE5A0BCCCBF803AD8B163D5C7;
+extern const uint32_t g_rgctx_Action_1_tE5BE45CFFB32651C9CF4829F85C7849DF955338F;
+extern const uint32_t g_rgctx_Action_1_Invoke_m3A31BE16466C57A204A2986485892F7CB20EFD8A;
+static const Il2CppRGCTXDefinition s_rgctxValues[5] = 
+{
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_JsonUtility_FromJson_TisT_tC19944D5D881EBE9BD84B91BD8CF0659D882A0C3_mA5D5CA5DD72A1DA4089F14D0E943C7DDC58BDA87 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tC19944D5D881EBE9BD84B91BD8CF0659D882A0C3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_StarkCallbackHandler_Callback_TisT_tC19944D5D881EBE9BD84B91BD8CF0659D882A0C3_m53B090370D4BB2DFE5A0BCCCBF803AD8B163D5C7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Action_1_tE5BE45CFFB32651C9CF4829F85C7849DF955338F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Action_1_Invoke_m3A31BE16466C57A204A2986485892F7CB20EFD8A },
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_StarkWebGL_CodeGenModule;
+const Il2CppCodeGenModule g_StarkWebGL_CodeGenModule = 
+{
+	"StarkWebGL.dll",
+	171,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	2,
+	s_rgctxIndices,
+	5,
+	s_rgctxValues,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

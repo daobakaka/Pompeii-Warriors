@@ -1,0 +1,4 @@
+repository "sharpshooter@jxuexing@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"

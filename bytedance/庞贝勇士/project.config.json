@@ -1,0 +1,13 @@
+{
+    "setting": {
+        "urlCheck": true,
+        "es6": true,
+        "postcss": true,
+        "minified": true,
+        "newFeature": true,
+        "autoCompile": true
+    },
+    "appid": "tt52b0240dcd8c9a4d07",
+    "projectname": "庞贝勇士",
+    "douyinProjectType": "native"
+}

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/UI.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/STOxypre.unity
+    guid: 3f4866cfd98b065459d0378619238af3
+  - enabled: 1
+    path: Assets/Scenes/STOxz.unity
+    guid: 55b813a7d71b09a47b76d994990dac88
+  - enabled: 1
+    path: Assets/Scenes/STOnc.unity
+    guid: feb69deb57032ce419371d3364b411db
+  - enabled: 1
+    path: Assets/Scenes/STOdcr.unity
+    guid: 718139f246156634891a0a8a7256077b
+  - enabled: 1
+    path: Assets/Scenes/STOsl.unity
+    guid: ea0b70d6472361a4bb8fe70bedc4901f
+  - enabled: 1
+    path: Assets/Scenes/STOyd.unity
+    guid: 13c6c825c203fb24c9212b720d0c5edb
+  - enabled: 1
+    path: Assets/Scenes/STOsdc.unity
+    guid: 996a40d69e381c54cae523753d8acc0a
+  - enabled: 1
+    path: Assets/Scenes/STOmx.unity
+    guid: d2528b4ba8656f5488e3da94121bcbe9
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  m_configObjects: {}

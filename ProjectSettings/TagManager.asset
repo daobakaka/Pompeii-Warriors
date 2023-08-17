@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - gold
+  - health
+  - monster
+  - player
+  - bullet
+  - UI
+  - musicshoot
+  - weapon
+  - clonetree
+  - textprompt
+  - skillsta
+  - skill
+  - prop
+  - propblackfire
+  - baobao
+  - puppet
+  - puppetexplosion
+  - actorshadowassist
+  - bulletexplosion
+  - skill4energythunder
+  - skill2energybullet
+  - skill1energyball
+  - skill5energyrecover
+  - skill7energyice
+  - skill3energyiceandfire
+  - exp
+  - playerexpassist
+  - treasure
+  - UIclone
+  - monsterhurt
+  - soundexplosion
+  - postprocessing
+  - monstercontrol
+  - dicsave
+  - datacontrol
+  - aim
+  - monsterbullet
+  - z
+  - c
+  - m
+  - x
+  - v
+  - n
+  - b
+  - j
+  - f
+  - k
+  - a
+  - d
+  - l
+  - g
+  - h
+  - s
+  - expbutton
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - kaka
+  - Water
+  - UI
+  - player
+  - post
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
