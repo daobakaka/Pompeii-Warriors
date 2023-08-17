@@ -1,2 +1,2 @@
 # Pompeii-Warriors
- a winchat game
+a 2D game which enjoy as Lawn cutting , you can not stop.
